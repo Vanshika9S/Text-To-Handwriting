@@ -9,7 +9,7 @@
 - [REQUIREMENTS](#_fsqi3rn9841f)
 - [ACKNOWLEDGEMENTS AND RESOURCES](#_byi7k7pzo743)
 
-**TEXT TO HANDWRITING**
+
 
 ## **AIM-**
 
