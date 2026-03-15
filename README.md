@@ -7,8 +7,6 @@
 - [TECH STACK](#_1pwpnsf666ud)
 - [MODELS AND LOSSES](#_pf665k3parjs)
 - [REQUIREMENTS](#_fsqi3rn9841f)
-- [CONTRIBUTORS](#_hi2fm11lz5jz)
-- [MENTORS](#_o5ii0ag1za97)
 - [ACKNOWLEDGEMENTS AND RESOURCES](#_byi7k7pzo743)
 
 **TEXT TO HANDWRITING**
@@ -97,7 +95,7 @@ pip install pandas torch torchvision tqdm Pillow
 
 - Clone the repository
 ```
-git clone "https://github.com/hredayshah2507/Text-To-Handwriting.git"
+git clone "https://github.com/Vanshika9S/Text-To-Handwriting.git"
 ```
 
 - Run the model(.ipynb) on Kaggle or Jupiter Notebooks
