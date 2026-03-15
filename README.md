@@ -27,7 +27,7 @@ The described GAN-based Text-to-Handwriting project basically takes image of sam
 - Style Encoder: Learns writer-specific characteristics from provided word images.
 - The generator, built from residual blocks and upsampling layers, uses AdaIN (adaptive instance normalization) to adapt its output to reflect the extracted style while faithfully visualizing the text content. To convert text to handwriting ,we use a special generator called cGAN. The generator then generates synthetic or fake data which looks exactly like real one.
 - Three auxiliary networks-(1) a discriminator that judges realism, (2) a writer classifier that verifies author style, and (3) a text recognizer (often a CNN + RNN attention-based decoder)-evaluate the generator's output from different angles: appearance, style fidelity, and textual correctness.
-[alt text](image-8.png)
+[alt text](images/architecture.jpg)
 
 Architecture of proposed handwriting generation model
 
@@ -50,32 +50,32 @@ Architecture of proposed handwriting generation model
 
 - **Style Loss-**
 
-**[alt text](image-7.png)**
+**[alt text](images/style_loss.jpg)**
 
 - **Generator Loss-**
 
-**[alt text](image-6.png)**
+**[alt text](images/gen_loss.jpg)**
 
 - **Discriminator Loss-**
 
-**![alt text](image-5.png)**
+**![alt text](images/discri_loss.jpg)**
 
 - **Recognizer Loss-**
 
-**![alt text](image.png)**
+**![alt text](images/recognizer_loss.jpg)**
 
 - **Output example-**
 
 
-![alt text](image-1.png)
+![alt text](images/output.jpg)
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 ## **REQUIREMENTS-**
 
